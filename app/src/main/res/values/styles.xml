@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontPath">fonts/POPPINS-REGULAR.TTF</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextViewPoppinsRegular" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/POPPINS-REGULAR.TTF</item>
+    </style>
+
+    <style name="TextViewPoppinsMedium" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/POPPINS-MEDIUM.TTF</item>
+    </style>
+
+    <style name="TextViewPoppinsBold" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/POPPINS-BOLD.TTF</item>
+    </style>
+
+    <style name="TextViewPoppinsSemiBold" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/POPPINS-SEMIBOLD.TTF</item>
+    </style>
+
+    <style name="TextViewProximaNovaBold" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/PROXIMA NOVA BOLD.OTF</item>
+    </style>
+
+    <style name="TextViewProximaNovaSemiBold" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/PROXIMA NOVA SEMIBOLD.OTF</item>
+    </style>
+
+</resources>

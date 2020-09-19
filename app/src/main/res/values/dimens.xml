@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one">1sp</dimen>
+    <dimen name="two">2sp</dimen>
+    <dimen name="five">5sp</dimen>
+    <dimen name="eight">8sp</dimen>
+    <dimen name="ten">10sp</dimen>
+    <dimen name="twelve">12sp</dimen>
+    <dimen name="thirteen">13sp</dimen>
+    <dimen name="fourteen">14sp</dimen>
+    <dimen name="fifteen">15sp</dimen>
+    <dimen name="sixteen">16sp</dimen>
+    <dimen name="eighteen">18sp</dimen>
+    <dimen name="twenty">20sp</dimen>
+    <dimen name="twentyFive">25sp</dimen>
+    <dimen name="thirty">30sp</dimen>
+
+    <dimen name="navPadding">40sp</dimen>
+
+    <dimen name="fieldHeight">40sp</dimen>
+    <dimen name="toolbarHeightMin">120sp</dimen>
+
+    <dimen name="text_size_twelve">12sp</dimen>
+    <dimen name="text_size_thirteen">13sp</dimen>
+    <dimen name="text_size_fourteen">14sp</dimen>
+    <dimen name="text_size_fifteen">15sp</dimen>
+    <dimen name="text_size_sixteen">16sp</dimen>
+    <dimen name="text_size_twenty">20sp</dimen>
+    <dimen name="text_size_twentyFive">25sp</dimen>
+    <dimen name="text_size_thirty">30sp</dimen>
+
+</resources>

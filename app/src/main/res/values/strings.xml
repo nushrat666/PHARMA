@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PHARMA</string>
+
+    <string name="support">24/7 Customer Support</string>
+    <string name="hotNumber">3369</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="get_link">Get link</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="enter_email_address_for_reset_link">Enter email address for reset link</string>
 </resources>

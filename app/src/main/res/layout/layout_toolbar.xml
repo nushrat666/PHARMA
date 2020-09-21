@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/twenty"
+        android:layout_marginStart="@dimen/twenty"
+        android:layout_marginBottom="@dimen/twenty"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_back"
+            style="@style/TextViewProximaNovaSemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/five"
+            android:text="Back"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_back"
+            android:drawablePadding="@dimen/five"
+            android:textSize="@dimen/sixteen"/>
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            style="@style/TextViewProximaNovaBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/five"
+            android:hint="Toolbar Title"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/five"
+            android:textSize="@dimen/eighteen"/>
+
+    </LinearLayout>
+
+</LinearLayout>

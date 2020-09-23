@@ -17,17 +17,17 @@ import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 import static com.tuli.pharma.utils.ExtraUtils.BACK_FROM_ACTIVITY;
 
-public class SupportCall extends AppCompatActivity implements InitComponent {
+public class SettingsActivity extends AppCompatActivity implements InitComponent {
 
-    @BindView(R.id.support_call)
-    LinearLayout lnSupportCall;
+    @BindView(R.id.ln_profile)
+    LinearLayout lnSettings;
     @BindView(R.id.tv_toolbar_title)
     TextView tvToolbarTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_support_call);
+        setContentView(R.layout.layout_settings);
         ButterKnife.bind(this);
         init();
     }
@@ -37,15 +37,12 @@ public class SupportCall extends AppCompatActivity implements InitComponent {
         tvToolbarTitle.setVisibility(View.GONE);
     }
 
-    @OnClick({R.id.btn_call, R.id.tv_back})
+    @OnClick({ R.id.tv_back})
     public void onClickListener(View view)
     {
         switch (view.getId())
         {
-            case R.id.btn_call:
-                lnSupportCall.setVisibility(View.VISIBLE);
 
-                break;
 
             case R.id.tv_back:
                 BACK_FROM_ACTIVITY(this);
